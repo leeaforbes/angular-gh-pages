@@ -25,11 +25,11 @@ Visit your Angular Github Pages
 
 
 New changes?
-ng build --output-path docs
+ng build --output-path docs --base-href /angular-gh-pages/
 git add .
 git commit -m "second commit"
 git push
-ng deploy
+ng deploy --base-href=/angular-gh-pages/
 
 ```
 
