@@ -1,11 +1,35 @@
 ```
+npm install -g @angular/cli
+ng new angular-gh-pages
 
+ng build --output-path docs --base-href /your_project_name/
+ng build --output-path docs --base-href /angular-gh-pages/
+
+git add .
+git commit -m "first commit"
+git remote add origin <your-github-repo-link>
+git remote add origin https://github.com/leeaforbes/angular-gh-pages
+git push
 
 ng add angular-cli-ghpages
 ng deploy --base-href=/<your-repo-name>/
+ng deploy --base-href=/angular-gh-pages/
 
 Git repo > Settings > Pages
 Set branch to gh-pages (created and pushed by above)
+
+Visit your Angular Github Pages
+
+
+-------------------------
+
+
+New changes?
+ng build --output-path docs --base-href /angular-gh-pages/
+git add .
+git commit -m "second commit"
+git push
+
 ```
 
 
