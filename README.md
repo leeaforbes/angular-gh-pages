@@ -1,3 +1,19 @@
+```
+
+
+ng add angular-cli-ghpages
+ng deploy --base-href=/<your-repo-name>/
+
+Git repo > Settings > Pages
+Set branch to gh-pages (created and pushed by above)
+```
+
+
+
+
+
+
+
 # AngularGhPages
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.3.
